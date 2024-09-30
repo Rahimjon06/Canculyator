@@ -1,0 +1,27 @@
+body{
+    font-family: "Space Mono", monospace;
+}
+input::-wekit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input{
+    background: var(--Grayish-cyan);
+}
+.card-number{
+    background-color: rgba(0, 17, 29, 0.87);
+    width: 100%;
+   padding: 15px 25px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   cursor: pointer;
+}
+.active{
+    background-color: gray;
+}
+input::placeholder{
+    color: rgba(128,128,128,0.295);
+}
